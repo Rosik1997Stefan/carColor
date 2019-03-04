@@ -24,12 +24,14 @@ ul li {
 	width: 20%;
 	height: 100%;
 	mix-blend-mode: hue;
+	border: 5px solid black;
 }
 ul:hover li{
 	opacity: 0;
 }
 ul li:hover{
 	opacity: 1;
+	border:  5px solid black;
 }
 ul li:nth-child(1){
 	background: #FF5500;
